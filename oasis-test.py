@@ -8,4 +8,4 @@ time.sleep(10)
 elem = driver.find_elements_by_css_selector('[data-label="Menu item"]')
 print(elem)
 
-# driver.close()
+# web-driver.close()
