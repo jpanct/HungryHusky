@@ -1,5 +1,5 @@
 Oasis project fall 2021
 
-Members: Nicholas Mamisashvili
-
+Member: Nicholas Mamisashvili
+Member: Dylan Dinio
 Mentor: Ryan Drew
