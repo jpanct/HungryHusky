@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 import json
 
-driver = webdriver.Chrome('web-driver')
+driver = webdriver.Chrome()
 driver.get("https://nudining.com/public/menus")
 print("Searching...")
 
