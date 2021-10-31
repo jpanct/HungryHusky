@@ -1,9 +1,22 @@
 <!doctype html>
 
+<html>
+  <head>
+    <title> Hungry Husky</title>
+  </head>
+  <h1>
+    Hungry Husky
+  </h1>
+  {#turn this into a loop through the dictionary below#}
+  <h2>
+    Stetson West
+  </h2>
 
-<title>Hello from Flask</title>
-{% if name %}
-  <h1>Hello {{ name }}!</h1>
-{% else %}
-  <h1>Hello, World!</h1>
-{% endif %}
+  <ul>
+    {% for item in stwest_food_list %}
+        <li> {{ item }} </li>
+    {% endfor %}
+  </ul>
+</html>
+
+

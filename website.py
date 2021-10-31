@@ -6,4 +6,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return render_template('index.html', name="Cooper", jsonfile=json.dumps("food"))
+    f = open("./food.json", "r")
+    contents = f.read()
+    f.close()
+    food_data = json.loads(contents)
+    stwest_food_list = food_data["Food Hall at Stetson West"]
+    return render_template('index.html', stwest_food_list=stwest_food_list)
+
