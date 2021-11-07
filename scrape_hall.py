@@ -9,6 +9,7 @@ print("Searching...")
 time.sleep(10)
 print("found:")
 
+
 # Determine Dining Hall
 dining_hall = driver.find_element_by_class_name('location-name')
 print(dining_hall.text)
@@ -17,6 +18,7 @@ print(dining_hall.text)
 menu = driver.find_elements_by_css_selector('[data-label="Menu item"]')
 
 # get rid of the extra info
+
 menu_list = []
 for item in range(0, len(menu)):
     menu_item = menu[item].text
