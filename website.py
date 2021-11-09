@@ -12,4 +12,3 @@ def hello():
     food_data = json.loads(contents)
     stwest_food_list = food_data["Food Hall at Stetson West"]
     return render_template('index.html', stwest_food_list=stwest_food_list)
-
