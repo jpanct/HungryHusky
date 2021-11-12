@@ -4,7 +4,7 @@ from selenium import webdriver
 
 driver_directory = '/Library/Frameworks/Python.framework/Versions/3.9/bin/chromedriver'
 # place driver_directory in parenthesis
-chrome_driver = webdriver.Chrome()
+chrome_driver = webdriver.Chrome(driver_directory)
 
 
 # scrape_the_hall : Driver, String, String, String -> json
