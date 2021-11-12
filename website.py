@@ -3,12 +3,16 @@ import json
 
 app = Flask(__name__)
 
+# gets the python representation of a JSON file's data
+def fetch_food_dict_from_json_file(filename):
+    f = open(filename, "r")
+    contents = f.read()
+    f.close()
+    data = json.loads(contents)
+    return data
 
 @app.route('/')
 def hello():
-    f = open("./food.json", "r")
-    contents = f.read()
-    f.close()
-    food_data = json.loads(contents)
-    stwest_food_list = food_data["Food Hall at Stetson West"]
-    return render_template('index.html', stwest_food_list=stwest_food_list)
+    dinner_data = fetch_food_dict_from_json_file("./dinner.json")
+    food_by_station = dinner_data["Stetson East"] # change
+    return render_template('index-steast.html', food_by_station=food_by_station)
