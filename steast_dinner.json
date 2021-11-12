@@ -1,0 +1,34 @@
+{
+    "Trattoria": [
+        "Rigatoni with Clam Sauce",
+        "Garlic Sticks",
+        "Roasted Garlic Kale",
+        "Green Salad"
+    ],
+    "Pizza": [
+        "Cheese Pizza",
+        "Italian Sausage Flatbread",
+        "Pepperoni Pizza",
+        "Grated Parmesan Cheese",
+        "Crushed Red Pepper",
+        "Dried Oregano",
+        "Slice Garlic Knots",
+        "Marinara Sauce"
+    ],
+    "Soup": [
+        "Clam Chowder",
+        "3 Bean & Swiss Chard Soup",
+        "Crackers, Oyster, Zesta, Keebler, 0.5 oz",
+        "Crackers, Saltines, Unsalted, Zesta, 2 Ct"
+    ],
+    "Menutainment": [],
+    "Char Broil": [
+        "Hamburger on Bun",
+        "American Cheese Slice",
+        "Grilled Chicken",
+        "Hot Dog",
+        "Caramelized Onions and Peppers",
+        "cheeseburger on white bun",
+        "3/8\" French Fries, Fried"
+    ]
+}
