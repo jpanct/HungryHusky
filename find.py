@@ -23,6 +23,11 @@ def select_hall(web_driver, hall, meal):
     time.sleep(10)
 
 
+
+stwest_hours = {"monday": "7:00am - 11:00pm", "tuesday": "7:00am - 11:00pm", "wednesday": "7:00am - 11:00pm",
+                "thursday": "7:00am - 11:00pm", "friday": "7:00am - 10:00pm", "saturday": "8:00am - 10:00pm",
+                "sunday": "8:00am - 10:00pm"}
+
 hall_id_dict = \
     {'IV': 'building_5f4f8a925e42ad17557d1f95', 'Steast': 'building_612d4606e8297100cdc427ee', 'Stwest': 'insert here'}
 
