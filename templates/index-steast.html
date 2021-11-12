@@ -3,8 +3,8 @@
 <html>
 
 <head>
-  <title> Hungry Husky</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Hungry Husky</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
@@ -26,7 +26,15 @@
           <p>8:00AM-<br>10:00PM</p>
         </div>
         <div class="hours-section">
-          <h4>Mon-Wed</h4>
+          <h4>Mon</h4>
+          <p>7:00AM-<br>11:00PM</p>
+        </div>
+        <div class="hours-section">
+          <h4>Tue</h4>
+          <p>7:00AM-<br>11:00PM</p>
+        </div>
+        <div class="hours-section">
+          <h4>Wed</h4>
           <p>7:00AM-<br>11:00PM</p>
         </div>
         <div class="hours-section">
@@ -42,13 +50,21 @@
           <p>8:00AM-<br>10:00PM</p>
         </div>
       </div>
-      <div class="menu">
+      <div class="sidebar-and-menu">
         <div class="sidebar">
           <ul>
-            <li></li>
+            <li>Comfort/Homestyle</li>
+            <li>Char Broil</li>
+            <li>Trattoria</li>
+            <li>Pizza</li>
+            <li>Plant Based</li>
+            <li>Soup</li>
+            <li>Deli</li>
+            <li>Avoiding Gluten</li>
+            <li>Garden Fresh</li>
           </ul>
         </div>
-        <div class="menu-itmes">
+        <div class="menu-items">
           <ul>
             {% for station_name, food_list in food_by_station.items() %}
               <h3>{{ station_name }}</h3>

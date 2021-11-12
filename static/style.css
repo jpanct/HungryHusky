@@ -5,7 +5,7 @@ html {
 nav {
     display: flex;
     justify-content: space-between;
-    border-bottom: 8px solid #f03939;
+    border-bottom: 5px solid #f03939;
 }
 
 a {
@@ -25,14 +25,14 @@ a {
 }
 
 .content {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .tab {
     background-color:#f3f3f3;
     font-family: "Montserrat";
-    min-width: 250px;
+    min-width: 290px;
     min-height: 50px;
     display: flex;
     justify-content: center;
@@ -50,14 +50,29 @@ a {
 
 .menu-and-hours {
     background-color:#f3f3f3;
+    
 }
 
 .hours {
     display: flex;
-    justify-content: space-between;
-    max-width: 500px;
+    justify-content: space-around;
+    max-width: 650px;
     margin: auto;
-    padding: 40px;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.hours-section {
+    text-align: center;
+}
+
+.hours-section p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.hours-section h4 {
+    margin-bottom: 0;
 }
 
 .hours h3 {
@@ -66,7 +81,35 @@ a {
     align-self: center;
 }
 
-
 .closed {
     color: red;
+}
+
+.menu {
+    max-width: 650px;
+}
+
+.sidebar-and-menu {
+    display: flex;
+    max-width: 90%;
+    justify-content: start;
+    padding: 50px;
+    padding-left: 20px;
+}
+
+.sidebar {
+    border-left: 3px solid rgb(180, 180, 180);
+    color: #6e6e6e;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.sidebar li {
+    line-height: 2em;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.menu-items {
+    border: 1px solid;
 }
