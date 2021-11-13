@@ -21,8 +21,10 @@ def select_hall(web_driver, hall):
 #select_meal : Driver String
 #clicks on the tab of the given meal (Breakfast, Lunch, or Dinner)
 def select_meal(web_driver, meal):
-    web_driver.find_elements_by_xpath(f"//a[contains(text(), '{meal}')]")[0].click()
-    time.sleep(10)
+    meal_button = web_driver.find_elements_by_xpath(f"//a[contains(text(), '{meal}')]")
+    if meal_button:
+        meal_button[0].click()
+        time.sleep(10)
 
 
 

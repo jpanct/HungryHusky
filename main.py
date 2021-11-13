@@ -38,13 +38,19 @@ def scrape_current_hall(driver, hall, file_name, stations):
 #scrapes every meal in a given hall and their respective stations and saves them in a json file with file_name
 def scrape_in_hall(driver, hall, file_name, stations):
     #select_meal(driver, 'Breakfast')
-    scrape_current_hall(chrome_driver, hall_id_dict[hall] ,(file_name + "_breakfast") , stations)
+    breakfast_button = driver.find_elements_by_xpath(f"//a[contains(text(), 'Breakfast')]")
+    if breakfast_button:
+        scrape_current_hall(chrome_driver, hall_id_dict[hall] ,(file_name + "_breakfast") , stations)
 
     select_meal(driver, 'Lunch')
-    scrape_current_hall(chrome_driver, hall_id_dict[hall] , (file_name + "_lunch"), stations)
+    lunch_button = driver.find_elements_by_xpath(f"//a[contains(text(), 'Lunch')]")
+    if lunch_button:
+        scrape_current_hall(chrome_driver, hall_id_dict[hall] , (file_name + "_lunch"), stations)
 
     select_meal(driver, 'Dinner')
-    scrape_current_hall(chrome_driver, hall_id_dict[hall] , (file_name + "_dinner"), stations)
+    dinner_button = driver.find_elements_by_xpath(f"//a[contains(text(), 'Lunch')]")
+    if dinner_button:
+        scrape_current_hall(chrome_driver, hall_id_dict[hall] , (file_name + "_dinner"), stations)
 
 # Driver -> Json
 # selects Stwest and scrapes whats on its site (since theres only dinner)
@@ -57,7 +63,8 @@ def scrape_stwest (driver):
 def scrape_all_halls(driver):
     load_site(driver)
     
-    scrape_stwest(driver)
+    #scrape_stwest(driver)
+    scrape_in_hall(driver, 'Stwest', 'stwest', STETSON_WEST_STATIONS)
 
     select_hall(driver, hall_id_dict['Steast'])
     scrape_in_hall(driver, 'Steast', 'steast', STETSON_EAST_STATIONS)
