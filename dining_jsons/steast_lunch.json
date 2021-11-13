@@ -1,34 +1,101 @@
 {
+    "Comfort/Homestyle": [
+        "Herb Citrus Chicken",
+        "Grain and Rice Blend",
+        "Roasted Butternut Squash"
+    ],
     "Trattoria": [
-        "Fajita Style Chicken Thighs",
-        "Spanish Rice",
-        "roasted zucchini",
-        "Green Salad",
-        "Green Bean Salad"
+        "Scrambled Eggs",
+        "Mixed Herb Scrambled Eggs",
+        "Pork Bacon",
+        "Parmesan Potato Wedges",
+        "Cheese Pizza",
+        "Egg Breakfast Pizza",
+        "Green Salad"
     ],
     "Pizza": [
-        "Buffalo Chicken Pizza",
+        "Sausage Pepper and Onion Pizza",
         "Cheese Pizza",
-        "Meatball Pizza",
+        "Mushroom Pizza",
         "Grated Parmesan Cheese",
         "Crushed Red Pepper",
         "Dried Oregano",
         "Slice Garlic Knots",
         "Marinara Sauce"
     ],
+    "Plant Based": [
+        "Jerk Tofu Steak with Mango Salsa",
+        "Black Beans with Rice",
+        "Fried Plantains",
+        "Garden Vegetable Soup",
+        "Tabouleh",
+        "Classic Hummus",
+        "Marinated Tofu",
+        "Marinated Olives",
+        "Fresh Cantaloupe",
+        "Edamame",
+        "Black Bean and Corn Salad",
+        "Greek Pasta Salad",
+        "Beet Salad"
+    ],
     "Soup": [
-        "Clam Chowder",
-        "Italian Wedding Soup",
+        "Chicken Noodle Soup",
+        "Vegetarian Chili",
         "Crackers, Oyster, Zesta, Keebler, 0.5 oz",
         "Crackers, Saltines, Unsalted, Zesta, 2 Ct"
     ],
+    "Deli": [
+        "FIT Tuna Salad",
+        "Chicken Salad",
+        "Sliced Smoked Ham",
+        "Thinly Sliced Deli Turkey Breast",
+        "Sliced Capicola",
+        "Sliced Genoa Salami",
+        "Sliced Swiss Cheese",
+        "Sliced Sharp Cheddar Cheese",
+        "Sliced American Swiss Cheese",
+        "Sliced Provolone Cheese",
+        "Homemade Potato Chips",
+        "Sliced Tomatoes",
+        "Sliced Red Bell Pepper",
+        "Sliced Red Onion",
+        "Bread & Butter Pickles",
+        "Chopped Romaine Lettuce",
+        "Baby Spinach",
+        "Pesto Mayonnaise",
+        "Mayonnaise",
+        "Chipotle Garlic Ranch",
+        "Honey Mustard Dressing",
+        "Yellow Mustard",
+        "Creamy Caesar Dressing",
+        "Whole Wheat Bread",
+        "12\" Garlic Herb Flour Tortilla",
+        "12\" Spinach Herb Tortilla",
+        "12\" Whole Wheat Flour Tortilla",
+        "12\" Tomato Basil Flour Tortilla",
+        "Signature Bread, Wheat",
+        "Signature Bread, White",
+        "Olive Oil",
+        "Red Wine Vinegar",
+        "Eggplant Parmesan Sub"
+    ],
+    "Avoiding Gluten": [
+        "Baked Pollock",
+        "Baked Sweet Potato",
+        "Saut\u00e9ed Green Beans, Onions, Tomatoes"
+    ],
+    "Garden Fresh": [
+        "Low Fat Strawberry Yogurt",
+        "Fat Free Plain Greek Yogurt",
+        "Fat Free Plain Yogurt",
+        "Granola",
+        "Blueberries"
+    ],
     "Menutainment": [],
     "Char Broil": [
-        "American Cheese Slice",
-        "Grilled Chicken",
-        "Hot Dog on Bun",
-        "Caramelized Onions and Peppers",
-        "3/8\" French Fries, Fried",
-        "cheeseburger on white bun"
+        "Pancakes",
+        "Sweet Potato Puffs",
+        "Banana Pancakes",
+        "Scrambled Eggs with Cheese"
     ]
 }

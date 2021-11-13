@@ -1,8 +1,8 @@
 {
     "Halal": [
-        "Beef and Mushroom Kofta",
-        "Zatar Roast Cauliflower and Chickpeas",
-        "Herb and Lemon Wild Rice",
+        "Chicken Shawarma",
+        "Shawarma Spiced PAOW",
+        "Brown Rice",
         "Shredded Iceberg Lettuce",
         "Baby Spinach",
         "Sliced Red Onion",
@@ -22,26 +22,27 @@
         "Baba Ghanoush"
     ],
     "Zone 8": [
-        "Balsamic Glazed Pork",
-        "Quinoa Stuffing",
-        "Jasmine Rice",
-        "Roasted Vegetable Medley",
-        "Chickpea Cucumber Salad",
-        "Sweet Corn Salad"
+        "Honey Mustard Chicken Breast",
+        "Brown Rice",
+        "Saut\u00e9ed Green Beans Onions Tomatoes",
+        "Steamed Broccoli",
+        "Cucumber and Onion Salad",
+        "Brown Rice Salad"
     ],
     "Pizza": [
         "Pepperoni Pizza",
         "Cheese Pizza",
-        "Mush. Rosemary & Sundried Tom. Pizza",
-        "Spinach Parmesan Flatbread"
+        "Sausage Pepper and Onion Pizza",
+        "Slice Garlic Knots"
     ],
     "Tandori": [
         "Cucumber Raita",
-        "Curried Carrot Salad",
-        "Kale Salad",
-        "Jasmine Pilaf",
-        "Rajmah (Curried Kidney Beans)",
-        "Tofu Coconut Curry"
+        "Cilantro Chutney",
+        "Pickled Carrots",
+        "Spinach Sunflower Seed Salad",
+        "Fragrant Lentil Rice",
+        "Lentil and Potato Salad",
+        "Tandoori Chicken"
     ],
     "Bakery-Dessert": [
         "Sugar Cookies",
@@ -59,40 +60,31 @@
         "Chopped Green Onions",
         "Sliced Pickled Ginger",
         "Spicy Mayonnaise",
-        "Kim Chi Roll",
-        "Spicy Shrimp Spring Roll"
+        "Zucchini Roll",
+        "Tuna Roll"
     ],
     "Soup": [
         "Crackers, Saltine, 2 CT, Zesta",
         "Crackers, Oyster, Zesta, Keebler, 0.5 oz",
         "Vegan Tomato Basil Soup",
-        "Clam Chowder"
+        "Garden Vegetable Soup"
     ],
     "Pasta": [
-        "Pasta with Tomato Clam Sauce",
-        "Garlic Breadstick",
+        "Margarita Chicken Pasta",
+        "Cheesy Breadsticks",
         "Whole Wheat Penne Pasta",
         "Marinara Sauce",
-        "Creamy Marinara Sauce"
+        "Beyond Bolognese"
     ],
     "Comfort": [],
     "Grill": [
-        "Hamburger on Bun",
         "Veggie Burger",
-        "Fresh Cut Fries",
-        "Grilled Cheese Sandwich",
-        "Tomato Basil Soup"
+        "Egg and Cheese Sandwich",
+        "Turkey Burger (No Bun)",
+        "Cheeseburger",
+        "Seasoned Baked Fries"
     ],
-    "Burger Toppings": [
-        "Shredded Iceberg Lettuce",
-        "Sliced Tomatoes",
-        "Sliced Red Onion",
-        "Spicy Pickles",
-        "Sriracha Ketchup",
-        "Dill Pickle Spears",
-        "Red Quinoa and Portobello Corn Salad",
-        "Chickpea Salad"
-    ],
+    "Burger Toppings": [],
     "Salad": [
         "Chopped Romaine Lettuce",
         "Spring Mix",

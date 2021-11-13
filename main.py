@@ -7,7 +7,8 @@ from hall_dict import create_hall_dict
 STETSON_WEST_STATIONS = ["Salsas & Dips", "Soup & Co", "Homestyle", "500 Degrees", "Bok Choy Express",
                          "Bok Choy Express Fast lane"]
 #Salsa is not working because in the x path we are looking for 'Salsa's & Dip' and since it uses one apostrophe the string get cut off
-STETSON_EAST_STATIONS = ["Trattoria", "Pizza", "Soup", "Menutainment", "Char Broil"]
+STETSON_EAST_STATIONS = ["Comfort/Homestyle", "Trattoria", "Pizza", "Plant Based", "Soup", "Deli", 
+                         "Avoiding Gluten", "Garden Fresh", "Menutainment", "Char Broil"]
 
 IV_STATIONS = ["Halal", "Zone 8", "Pizza", "Tandori", "Bakery-Dessert", "Plant-Based",
                 "Sushi", "Soup", "Pasta", "Comfort", "Grill", "Burger Toppings", "Salad",

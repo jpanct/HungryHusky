@@ -4,10 +4,10 @@
     "Pizza": [],
     "Tandori": [],
     "Bakery-Dessert": [
-        "Lemon Poppy Seed Quick Bread",
-        "Banana Muffin",
+        "Blueberry Bread",
+        "Lemon Poppy Seed Muffin",
         "Mini Croissant",
-        "Blueberry Scone"
+        "Brown Sugar Cinnamon Scone"
     ],
     "Plant-Based": [],
     "Sushi": [],
@@ -20,11 +20,11 @@
     "Pasta": [],
     "Comfort": [
         "Scrambled Eggs",
-        "Roasted Sweet Potato Hash with Peppers",
-        "Country Ham",
-        "Tofu Scramble",
-        "Garlic Chard and White Beans",
-        "Cinnamon French Toast"
+        "Hash Brown Patty",
+        "Corned Beef Hash",
+        "Mushroom and Cheese Frittata",
+        "Broiled Tomato Halves",
+        "Blueberry Pancakes"
     ],
     "Grill": [],
     "Burger Toppings": [],

@@ -1,8 +1,8 @@
 {
     "Halal": [
-        "Beef and Mushroom Kofta",
-        "Zatar Roast Cauliflower and Chickpeas",
-        "Herb and Lemon Wild Rice",
+        "Lemon Oregano Grilled Chicken",
+        "Shawarma Spiced PAOW",
+        "Brown Rice",
         "Shredded Iceberg Lettuce",
         "Baby Spinach",
         "Sliced Red Onion",
@@ -22,26 +22,27 @@
         "Baba Ghanoush"
     ],
     "Zone 8": [
-        "Pork Chop with Chimichurri",
-        "Spanish Rice",
-        "Grilled Carrots with Harissa Seasoning",
-        "Stewed Pinto Beans with Tomatoes and Onions",
-        "Chickpea Cucumber Salad",
-        "Sweet Corn Salad"
+        "Tomato Braised Beef",
+        "Baked Potatoes",
+        "Herbed Steamed Brown Rice",
+        "Fresh Steamed Carrots",
+        "Cucumber and Onion Salad",
+        "Brown Rice Salad"
     ],
     "Pizza": [
         "Pepperoni Pizza",
         "Cheese Pizza",
-        "Onion, Mushroom and Pepper Pizza",
-        "Roasted Vegetable Calzone"
+        "Mush. Rosemary & Sundried Tom. Pizza",
+        "Slice Garlic Knots"
     ],
     "Tandori": [
         "Cucumber Raita",
-        "Curried Carrot Salad",
-        "Chopped Kale Salad with Beets",
-        "Jasmine Pilaf",
-        "Mustard Greens",
-        "Toasted Coconut & Curry Tofu"
+        "Cilantro Chutney",
+        "Pickled Carrots",
+        "Spinach Sunflower Seed Salad",
+        "Fragrant Lentil Rice",
+        "Lentil and Nut Korma Dal",
+        "Spicy Pork Skewers"
     ],
     "Bakery-Dessert": [
         "Sugar Cookies",
@@ -59,48 +60,39 @@
         "Chopped Green Onions",
         "Sliced Pickled Ginger",
         "Spicy Mayonnaise",
-        "Ginger Carrot Roll",
-        "California Roll w/ Imitation Crab"
+        "Avocado Roll",
+        "Surimi Roll"
     ],
     "Soup": [
         "Crackers, Saltine, 2 CT, Zesta",
         "Crackers, Oyster, Zesta, Keebler, 0.5 oz",
         "Vegan Tomato Basil Soup",
-        "Black Bean Soup"
+        "Vegetarian Chili"
     ],
     "Pasta": [
-        "Manicotti Alfredo",
-        "Garlic Breadstick",
+        "Tortellini alla Turkey Bolognese",
+        "Cheesy Breadsticks",
         "Whole Wheat Penne Pasta",
         "Marinara Sauce",
-        "Creamy Marinara Sauce"
+        "Beyond Bolognese"
     ],
     "Comfort": [
-        "Lemon Pepper Rotisserie Chicken",
-        "Rice Pilaf",
-        "Cauliflower and Snow Peas",
-        "Chicken Gravy",
-        "Garlic Mashed Potatoes",
-        "Carrot, Raisin and Apple Salad",
-        "Mediterranean Grain Salad"
+        "Chicken Parmesan",
+        "Vegetable & Rice Pilaf",
+        "Creamy Polenta",
+        "Paprika Roasted Cauliflower",
+        "Parmesan Roasted Carrots",
+        "Sweet Corn with Peppers, Tomatoes, and Onions",
+        "Black Barley Cilantro Tabouleh"
     ],
     "Grill": [
-        "Hamburger on Bun",
         "Veggie Burger",
-        "Fresh Cut Fries",
-        "Grilled Cheese Sandwich",
-        "Tomato Basil Soup"
+        "Italian Meatball Sub",
+        "Turkey Burger (No Bun)",
+        "Cheeseburger",
+        "Seasoned Baked Fries"
     ],
-    "Burger Toppings": [
-        "Shredded Iceberg Lettuce",
-        "Sliced Tomatoes",
-        "Sliced Red Onion",
-        "Spicy Pickles",
-        "Sriracha Ketchup",
-        "Dill Pickle Spears",
-        "Red Quinoa and Portobello Corn Salad",
-        "Chickpea Salad"
-    ],
+    "Burger Toppings": [],
     "Salad": [
         "Chopped Romaine Lettuce",
         "Spring Mix",
