@@ -1,0 +1,34 @@
+{
+    "Trattoria": [
+        "Fajita Style Chicken Thighs",
+        "Spanish Rice",
+        "roasted zucchini",
+        "Green Salad",
+        "Green Bean Salad"
+    ],
+    "Pizza": [
+        "Buffalo Chicken Pizza",
+        "Cheese Pizza",
+        "Meatball Pizza",
+        "Grated Parmesan Cheese",
+        "Crushed Red Pepper",
+        "Dried Oregano",
+        "Slice Garlic Knots",
+        "Marinara Sauce"
+    ],
+    "Soup": [
+        "Clam Chowder",
+        "Italian Wedding Soup",
+        "Crackers, Oyster, Zesta, Keebler, 0.5 oz",
+        "Crackers, Saltines, Unsalted, Zesta, 2 Ct"
+    ],
+    "Menutainment": [],
+    "Char Broil": [
+        "American Cheese Slice",
+        "Grilled Chicken",
+        "Hot Dog on Bun",
+        "Caramelized Onions and Peppers",
+        "3/8\" French Fries, Fried",
+        "cheeseburger on white bun"
+    ]
+}

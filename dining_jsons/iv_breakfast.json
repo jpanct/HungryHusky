@@ -1,0 +1,33 @@
+{
+    "Halal": [],
+    "Zone 8": [],
+    "Pizza": [],
+    "Tandori": [],
+    "Bakery-Dessert": [
+        "Lemon Poppy Seed Quick Bread",
+        "Banana Muffin",
+        "Mini Croissant",
+        "Blueberry Scone"
+    ],
+    "Plant-Based": [],
+    "Sushi": [],
+    "Soup": [
+        "Pancake and Waffle Syrup",
+        "Oatmeal",
+        "White Rice",
+        "Hard Boiled Egg"
+    ],
+    "Pasta": [],
+    "Comfort": [
+        "Scrambled Eggs",
+        "Roasted Sweet Potato Hash with Peppers",
+        "Country Ham",
+        "Tofu Scramble",
+        "Garlic Chard and White Beans",
+        "Cinnamon French Toast"
+    ],
+    "Grill": [],
+    "Burger Toppings": [],
+    "Salad": [],
+    "Everday": []
+}

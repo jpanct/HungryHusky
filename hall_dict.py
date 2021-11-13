@@ -2,13 +2,9 @@ from find import select_hall
 from selenium import webdriver
 import time
 import json
+from pathlib import Path
 
-
-STETSON_WEST_STATIONS = ["Salsas & Dips", "Soup & Co", "Homestyle", "500 Degrees", "Bok Choy Express",
-                         "Bok Choy Express Fast lane"]
-#Salsa is not working because in the x path we are looking for 'Salsa's & Dip' and since it uses one apostrophe the string get cut off
-STETSON_EAST_STATIONS = ["Trattoria", "Pizza", "Soup", "Menutainment", "Char Broil"]
-
+base = Path('./dining_jsons')
 
 
 # [List-of Stations] String String String -> Dictionary
@@ -28,11 +24,8 @@ def create_hall_dict(all_stations, file_name, driver):
 
 def write_json (data, file_name):
     # Move to JSON file
-    json_object = json.dumps(data, indent=4)
-
-    # Writing to food.json
-    with open(f"{file_name}.json", "w") as outfile:
-        outfile.write(json_object)
+    jsonpath = base / (file_name + ".json")
+    jsonpath.write_text(json.dumps(data, indent=4))
 
 
 #create_hall_dict(STETSON_EAST_STATIONS, "building_612d4606e8297100cdc427ee", "Dinner", "steast_dinner")

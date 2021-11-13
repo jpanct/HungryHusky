@@ -1,0 +1,39 @@
+{
+    "Trattoria": [
+        "Scrambled Eggs",
+        "Sausage Link",
+        "Sauteed Spinach",
+        "Fried Hash Brown Patty"
+    ],
+    "Pizza": [
+        "Egg Breakfast Pizza"
+    ],
+    "Soup": [
+        "old fashioned oatmeal",
+        "Grits",
+        "Hard Boiled Eggs",
+        "Cinnamon Sugar Blend",
+        "Brown Sugar Topping",
+        "Dried Cranberries"
+    ],
+    "Menutainment": [
+        "Hard Fried Eggs",
+        "Eggs",
+        "Egg Whites",
+        "Diced Red Bell Peppers",
+        "Italian Sausage Crumbles",
+        "Diced Tomatoes",
+        "Baby Spinach",
+        "Sliced Mushrooms",
+        "Chopped Green Bell Pepper",
+        "Diced Onions",
+        "Diced Bacon",
+        "Shredded Sharp American Cheese"
+    ],
+    "Char Broil": [
+        "Pancakes",
+        "Fried Hash Brown Patty",
+        "Potatoes O'Brien",
+        "Vegetable Frittata"
+    ]
+}
