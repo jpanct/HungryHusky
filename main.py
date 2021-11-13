@@ -22,14 +22,11 @@ def scrape_the_hall(driver, hall, meal, file_name, stations):
     # open up driver to desired hall and meal
     select_hall(driver, hall, meal)
 
-    # Determine Dining Hall
-    dining_hall = driver.find_element_by_class_name('location-name')
-
     # Determine menu and apply to function
     #menu = driver.find_elements_by_css_selector('[data-label="Menu item"]')
 
     # Create a dictionary of food, then make it into a json file
-    create_hall_dict (stations, file_name)
+    create_hall_dict (stations, file_name, driver)
 
     driver.close()
 
