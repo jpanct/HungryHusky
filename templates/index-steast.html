@@ -4,7 +4,7 @@
 
 <head>
   <title>Hungry Husky</title>
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="../static/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
@@ -65,6 +65,9 @@
           </ul>
         </div>
         <div class="menu-items">
+          <script>
+            fetch("./dining_jsons/steast_dinner.json")
+          </script>
           <ul>
             {% for station_name, food_list in food_by_station.items() %}
               <h3>{{ station_name }}</h3>
