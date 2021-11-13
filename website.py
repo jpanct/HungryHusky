@@ -13,6 +13,6 @@ def fetch_food_dict_from_json_file(filename):
 
 @app.route('/')
 def hello():
-    dinner_data = fetch_food_dict_from_json_file("./dinner.json")
+    dinner_data = fetch_food_dict_from_json_file("dining_jsons/dinner.json")
     food_by_station = dinner_data["Stetson East"] # change
     return render_template('index-steast.html', food_by_station=food_by_station)
