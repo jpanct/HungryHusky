@@ -12,7 +12,20 @@ def fetch_food_dict_from_json_file(filename):
     return data
 
 @app.route('/')
-def hello():
-    dinner_data = fetch_food_dict_from_json_file("dining_jsons/dinner.json")
-    food_by_station = dinner_data["Stetson East"] # change
-    return render_template('index-steast.html', food_by_station=food_by_station)
+def display_steast():
+    dinner_data = fetch_food_dict_from_json_file("dining_jsons/steast_dinner.json")
+    return render_template('index-steast-test.html', dinner_data=dinner_data)
+
+@app.route('/iv')
+def display_iv():
+    dinner_data = fetch_food_dict_from_json_file("dining_jsons/iv_dinner.json")
+    return render_template('index-iv-test.html', dinner_data=dinner_data)
+
+@app.route('/stwest')
+def display_iv():
+    dinner_data = fetch_food_dict_from_json_file("dining_jsons/stwest_dinner.json")
+    return render_template('index-stwest-test.html', dinner_data=dinner_data)
+
+
+if __name__ == '__main__':  
+   app.run(debug = True)  

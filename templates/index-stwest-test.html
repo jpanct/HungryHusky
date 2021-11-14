@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title>Hungry Husky</title>
+  <link rel="stylesheet" href="../static/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="title">Hungry Husky</h1>
+  <div class="content">
+    <nav>
+      <div class="tab active"><a href="index-stwest.html">Stetson West</a></div>
+      <div class="tab"><a href="index-steast.html">Stetson East</a></div>
+      <div class="tab"><a href="index-iv.html">International Village</a></div>
+    </nav>
+    <div class="menu-and-hours">
+        <div class="hours">
+          <h3>Hours:</h3>
+          <div class="hours-section">
+            <h4>Sun</h4>
+            <p>4:00PM-<br>9:00PM</p>
+          </div>
+          <div class="hours-section">
+            <h4>Mon</h4>
+            <p>4:00PM-<br>9:00PM</p>
+          </div>
+          <div class="hours-section">
+            <h4>Tue</h4>
+            <p>4:00PM-<br>9:00PM</p>
+          </div>
+          <div class="hours-section">
+            <h4>Wed</h4>
+            <p>4:00PM-<br>9:00PM</p>
+          </div>
+          <div class="hours-section">
+            <h4>Thu</h4>
+            <p>4:00PM-<br>8:00PM</p>
+          </div>
+          <div class="hours-section">
+            <h4>Fri</h4>
+            <p>4:00PM-<br>8:00PM</p>
+          </div>
+          <div class="hours-section">
+            <h4>Sat</h4>
+            <p class="closed">CLOSED</p>
+          </div>
+        </div>
+      <div class="sidebar-and-menu">
+        <div class="sidebar">
+          <ul>
+            {%for station in dinner_data:%}
+                <li>{{station}}</li>
+            {%endfor%}
+          </ul>
+        </div>
+        <div class="menu-items">
+          <ul class="menu-items-ul">
+            {%for station in dinner_data: %}
+                <ul>
+                    <h3>{{station}}</h3>
+                    {%for food in dinner_data[station]:%}
+                    <li>{{food}}</li>
+                    {%endfor%}
+                </ul>
+            {%endfor%}
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

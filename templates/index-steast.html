@@ -68,9 +68,9 @@
           <ul class="menu-items-ul">
             <ul>
               <h3>Comfort/Homestyle</h3>
-              <li>Harissa Crusied Chicken</li>
-              <li>Lemon Couscous</li>
-              <li>Green Beans</li>
+              {% for food in (dinner_data['Comfort/Homestyle']):%}
+                <li>{{food}}</li>
+              {% endfor %}
             </ul>
             <ul>
               <h3>Trattoria</h3>
