@@ -1,4 +1,5 @@
 # Hungry Husky
+A dining hall website made using Python, Selenium, Flask, HTML, and CSS
 
 ## Why'd we make this?
 Our group made this as a part of the Fall 2021 [Oasis](https://valuable-banjo-220.notion.site/Hungry-Husky-1af34d3dda7d41788dc422dcc8793ebb) Program at Northeastern University. The goal was to create a website that scrapes the current food being served everyday in our three school dining halls and present them in a simpler format than our current schools website for students to quickly see what is being served. 
