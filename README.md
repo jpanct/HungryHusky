@@ -11,11 +11,11 @@ This was the first time our group worked with libraries such as Selenium and Fla
 
 
 ## Members
-Nicholas Mamisashvili
-Dylan Dinio
-Jamie Pan
-Lisa Jiang
-Angela Zheng
+Nicholas Mamisashvili. 
+Dylan Dinio. 
+Jamie Pan. 
+Lisa Jiang. 
+Angela Zheng. 
 
 ## Mentor
 Ryan Drew
