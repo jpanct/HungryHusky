@@ -10,6 +10,11 @@ We knew that we wanted a simple project to introduce us to web development and p
 ## What did we learn?
 This was the first time our group worked with libraries such as Selenium and Flask. We also learned a lot about project timelines having to manage this project alongside our school work and other extracurricular commitments. We also learned a lot about Human Computer Interaction Principles and designing good layouts for people to read information. This also allowed us to be introduced to programming in python as well as actually connecting backend code to our frontend.
 
+## Features
+* A python program that uses Selenium and scrapes food info from each dining hall for each meal type and creates a JSON file.
+* A parser that gets rid of extraneous information that the average user may not want (such as calories and eco friendliness).
+* A front end using JINJA that displays information neatly according to the designs we made.
+* A feature to sort food types (breakfast lunch dinner) and dining halls to choose what you want to view.
 
 ## Members
 Nicholas Mamisashvili   
